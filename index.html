@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>kephalosk | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <main>
+        <div class="card">
+            <h1>Contact Us</h1>
+            <div class="cardBarName">
+                <div class="cardBarNameFirst">
+<!--                    This field is required-->
+                    <label class="cardBarNameFirstLabel">First Name</label>
+                    <input class="cardBarNameFirstInput">
+                </div>
+                <div class="cardBarNameLast">
+<!--                    This field is required-->
+                    <label class="cardBarNameLastLabel">Last Name</label>
+                    <input class="cardBarNameLastInput">
+                </div>
+            </div>
+            <div class="cardBarEmail">
+<!--                Please enter a valid email address-->
+<!--                This field is required-->
+                <label class="cardBarNameEmailLabel">Email Address</label>
+                <input class="cardBarNameEmailInput">
+            </div>
+            <div class="cardBarQuery">
+<!--                Please select a query type-->
+                <label class="cardBarQueryLabel">
+                    Query Type
+                </label>
+                <div class="cardBarQueryButtons">
+                    <input type="radio" id="general" name="query_type" value="General Enquiry">
+                    <input type="radio" id="support" name="query_type" value="Support Request">
+                </div>
+            </div>
+            <div class="cardBarMessage">
+<!--                This field is required-->
+                <label class="cardBarMessageLabel"></label>
+                <input class="cardBarMessageInput">
+            </div>
+            <div class="cardBarTerms">
+<!--                To submit this form, please consent to being contacted-->
+                <input type="checkbox" id="terms" name="terms" value="terms">
+                <label for="terms">I consent to being contacted by the team</label>
+            </div>
+            <button class="cardBarButton">
+                Submit
+            </button>
+<!--            Message Sent!-->
+<!--            Thanks for completing the form. We'll be in touch soon!-->
+        </div>
+    </main>
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+        Coded by <a href="#">kephalosk</a>.
+    </footer>
+</body>
+</html>
